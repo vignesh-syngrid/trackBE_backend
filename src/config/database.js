@@ -10,4 +10,7 @@ export const sequelize = new Sequelize(dbUrl, {
   logging: process.env.NODE_ENV === "development" ? console.log : false,
   dialect: "postgres",
   define: { freezeTableName: true },
+   dialectOptions: {
+    ssl: false, // Render internal DB → no SSL needed
+  },
 });
