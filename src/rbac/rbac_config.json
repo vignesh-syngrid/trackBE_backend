@@ -1,0 +1,309 @@
+{
+  "roles": [
+    {
+      "name": "Super Admin",
+      "screens": [
+        {
+          "name": "Company",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Vendor / Contractor",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Technician",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Clients/Customer",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Attendance",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Reports",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Manage Job",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Work Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Job Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Region",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Roles",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Shift",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Settings",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Dashboard",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        }
+      ]
+    },
+    {
+      "name": "Company Admin",
+      "screens": [
+        {
+          "name": "Company",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Vendor / Contractor",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Technician",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Clients/Customer",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Attendance",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Reports",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Manage Job",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Work Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Job Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Region",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Roles",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Shift",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Settings",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Dashboard",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        }
+      ]
+    },
+    {
+      "name": "Vendor / Contractor",
+      "screens": [
+        {
+          "name": "Company",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Vendor / Contractor",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Technician",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Clients/Customer",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Attendance",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Reports",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Manage Job",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Work Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Job Type",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Region",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Roles",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Shift",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Settings",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Dashboard",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        }
+      ]
+    },
+    {
+      "name": "Supervisor / Dispatcher",
+      "screens": [
+        {
+          "name": "Company",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Vendor / Contractor",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Technician",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Clients/Customer",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Attendance",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Reports",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Manage Job",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Work Type",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Job Type",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Region",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Roles",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Shift",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": false }
+        },
+        {
+          "name": "Settings",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Dashboard",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        }
+      ]
+    },
+    {
+      "name": "Technician",
+      "screens": [
+        {
+          "name": "Company",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Vendor / Contractor",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Technician",
+          "permissions": { "view": true, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Clients/Customer",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Attendance",
+          "permissions": { "view": true, "add": true, "edit": true, "delete": true }
+        },
+        {
+          "name": "Reports",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Manage Job",
+          "permissions": { "view": true, "add": false, "edit": true, "delete": false }
+        },
+        {
+          "name": "Work Type",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Job Type",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Region",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Roles",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Shift",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Settings",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        },
+        {
+          "name": "Dashboard",
+          "permissions": { "view": false, "add": false, "edit": false, "delete": false }
+        }
+      ]
+    }
+  ]
+}
