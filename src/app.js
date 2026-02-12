@@ -21,7 +21,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://track-be-frontend-bbta.vercel.app"
+    "https://track-be-frontend.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
@@ -49,4 +49,5 @@ app.get("/api/health", (req, res) => res.json({ ok: true }));
 app.use(errorHandler);
 
 export default app;
+
 
