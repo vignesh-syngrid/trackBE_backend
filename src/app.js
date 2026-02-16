@@ -18,15 +18,32 @@ dotenv.config();
 const app = express();
 
 // app.use(cors());
+// app.use(cors({
+//   origin: [
+//     "http://localhost:3000",
+//     "https://track-be-frontend.vercel.app"
+//   ],
+//   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+//   allowedHeaders: ["Content-Type", "Authorization"],
+//   credentials: true
+// }));
+
 app.use(cors({
-  origin: [
-    "http://localhost:3000",
-    "https://track-be-frontend.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
+  origin: function (origin, callback) {
+    const allowed = [
+      "http://localhost:3000",
+      "https://track-be-frontend.vercel.app"
+    ];
+
+    if (!origin || allowed.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
+
 
 app.options('*', cors());
 app.use(express.json({ limit: "2mb" }));
@@ -49,5 +66,6 @@ app.get("/api/health", (req, res) => res.json({ ok: true }));
 app.use(errorHandler);
 
 export default app;
+
 
 
